@@ -58,13 +58,19 @@
             // numYear
             // 
             numYear.Location = new Point(79, 126);
+            numYear.Maximum = new decimal(new int[] { 2200, 0, 0, 0 });
+            numYear.Minimum = new decimal(new int[] { 1800, 0, 0, 0 });
             numYear.Name = "numYear";
             numYear.Size = new Size(150, 27);
             numYear.TabIndex = 2;
+            numYear.Value = new decimal(new int[] { 1800, 0, 0, 0 });
             // 
             // numRating
             // 
+            numRating.DecimalPlaces = 1;
+            numRating.Increment = new decimal(new int[] { 1, 0, 0, 65536 });
             numRating.Location = new Point(79, 159);
+            numRating.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             numRating.Name = "numRating";
             numRating.Size = new Size(150, 27);
             numRating.TabIndex = 3;
