@@ -50,5 +50,7 @@ namespace _166303_projekt_zpo
             DialogResult = DialogResult.Cancel;
             Close();
         }
+
+        
     }
 }
